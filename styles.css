@@ -1,0 +1,34 @@
+body {
+  background-color: blanchedalmond;
+}
+
+#code {
+  top: 20px;
+  left: 100px;
+}
+
+button {
+  color: #6a6a90;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #fff1eb;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #db8ca5;
+  position: absolute;
+}
+
+button:hover {
+  background-color: #f0c6d3;
+}
+
+button:active {
+  background-color: #fff1eb;
+  box-shadow: 0 5px #db8ca5;
+  transform: translateY(4px);
+}
