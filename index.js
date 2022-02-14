@@ -9,13 +9,13 @@
   function click() {
     let button = document.getElementById('code');
     button.style.position = "absolute";
-    button.style.left = 100+'px';
+    button.style.left = 300+'px';
     setTimeout(function(){
-      button.style.left = 70+'px';
+      button.style.left = 250+'px';
       setTimeout(function(){
-        button.style.left = 40+'px';
+        button.style.left = 200+'px';
         setTimeout(function(){
-          button.style.left = 10+'px';
+          button.style.left = 150+'px';
         }, 500);
       }, 500);
     }, 500);

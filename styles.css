@@ -1,14 +1,20 @@
 body {
-  background-color: blanchedalmond;
+  background-color: white;
+}
+
+#container {
+  padding: 300px;
+  border-style: double;
+  border-color: rgb(141, 113, 76);
 }
 
 #code {
-  top: 20px;
-  left: 100px;
+  top: 200px;
+  left: 300px;
 }
 
 button {
-  color: #6a6a90;
+  color: tan;
   display: inline-block;
   padding: 15px 25px;
   font-size: 20px;
@@ -16,19 +22,19 @@ button {
   text-align: center;
   text-decoration: none;
   outline: none;
-  background-color: #fff1eb;
+  background-color: #fcf8dd;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #db8ca5;
+  box-shadow: 0 9px rgb(141, 113, 76);
   position: absolute;
 }
 
 button:hover {
-  background-color: #f0c6d3;
+  background-color: #e7daad;
 }
 
 button:active {
-  background-color: #fff1eb;
-  box-shadow: 0 5px #db8ca5;
+  background-color: #fcf8dd;
+  box-shadow: 0 5px rgb(141, 113, 76);
   transform: translateY(4px);
 }
